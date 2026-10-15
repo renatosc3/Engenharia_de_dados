@@ -1,0 +1,5 @@
+requests
+beautifulsoup4
+psycopg[binary]>=3,<4
+python-dotenv
+streamlit
