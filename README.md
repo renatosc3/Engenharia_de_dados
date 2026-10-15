@@ -2,6 +2,8 @@
 
 Pipeline de dados e agente SQL para responder perguntas sobre o catálogo do [Books to Scrape](https://books.toscrape.com/). Os dados ficam no PostgreSQL do Supabase, em camadas `bronze`, `prata` e `ouro`.
 
+Repositório: [renatosc3/Engenharia_de_dados](https://github.com/renatosc3/Engenharia_de_dados).
+
 ## Executar a interface
 
 Requer Python 3.11 ou superior.

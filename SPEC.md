@@ -93,3 +93,18 @@ Critérios de aceite
 - Pergunta vazia não aciona o agente e mostra orientação ao usuário.
 - A interface não executa consultas à bronze.
 - Os quatro exemplos aparecem e a opção de contexto é encaminhada ao agente.
+
+---
+
+## Etapa 6 · Publicação no GitHub
+**Entrega:** código-fonte na branch `main` de `renatosc3/Engenharia_de_dados`.
+
+Requisitos
+- Incluir README com instruções para rodar a interface e configurar o `.env` local.
+- Enviar código, SQL e documentação; manter `.env` e segredos fora do Git.
+- Preservar o histórico remoto existente, se houver.
+
+Critérios de aceite
+- A branch remota `main` contém os arquivos do projeto e o README.
+- `.env` e `.streamlit/secrets.toml` não aparecem nos arquivos versionados.
+- O commit enviado pode ser confirmado no GitHub e a árvore local fica limpa.
