@@ -11,10 +11,11 @@
 | 3 · Ouro | ✅ concluída | views aplicadas e reaplicadas; categorias somam 40 títulos, igual à prata; 3 faixas válidas; M1–M3 sem divergências |
 | 4 · Agente SQL | ✅ concluída | 4 perguntas do PRD respondidas corretamente com OpenAI; SQLs gerados só consultaram prata/ouro; bloqueio de bronze validado |
 | 5 · Interface Streamlit | ✅ concluída | 4 exemplos editáveis e opção com/sem contexto; agente recarregado a cada execução; pergunta real exibiu SQL em prata.livros, tabela com 40 livros e resposta; bronze bloqueada nos dois modos; servidor local reiniciado e HTTP 200 |
+| 6 · Publicação no GitHub | ✅ concluída | branch `main` enviada a `renatosc3/Engenharia_de_dados`; código, SQL e README confirmados no GitHub; `.env` e segredos do Streamlit fora do Git |
 
 &nbsp;
 
-**Próximo passo:** aguardar validação da interface e aprovação ou novo pedido\.
+**Próximo passo:** aguardar validação da publicação e aprovação ou novo pedido\.
 
 ## 2\. Fonte de dados: books.toscrape.com
 
@@ -62,6 +63,7 @@
 | 15/10 | `pct_bem_avaliados` usa escala de 0 a 100 | apresentar percentual por categoria de forma explícita | Eng. Dados |
 | 15/10 | Interface local em Streamlit reutiliza o agente SQL da etapa 4 | mostrar pergunta, SQL executado, dados consultados e resposta sem duplicar regras de acesso | Eng. Dados |
 | 15/10 | Alternância de contexto na interface mantém acesso somente a prata e ouro | permitir comparação do agente sem expor bronze pela interface | Eng. Dados |
+| 15/10 | Publicar o código no repositório público `renatosc3/Engenharia_de_dados` | disponibilizar o projeto no GitHub solicitado, sem versionar credenciais | Eng. Dados |
 
 &nbsp;
 
